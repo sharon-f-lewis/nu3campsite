@@ -24,9 +24,10 @@ header h2 {
   background-color: #901cad;
 }
 
-.navbar-toggler {
+/* .navbar-toggler {
   margin-left: auto;
-}
+} */
+
 .row-content {
   padding: 50px 9;
   border-bottom: 1px ridge;
