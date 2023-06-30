@@ -14,6 +14,10 @@ header h2 {
   color: #CEC8FF;
 }
 
+.accordion-button {
+  background-color: #d3d3d3;
+}
+
 .jumbotron {
   padding: 48px;
   background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
@@ -37,10 +41,4 @@ header h2 {
 .site-footer {
   background-image: linear-gradient(#CEC8FF, white);
   padding: 20px 0;
-}
-
-.tab-content{
-  border: 1px solid #ddd;
-  border-top: none;
-  padding: 10px;
 }
