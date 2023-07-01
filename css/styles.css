@@ -38,3 +38,11 @@ header h2 {
   padding: 50px 9;
   border-bottom: 1px ridge;
   min-height: 200px; }
+
+#reserveModal .modal-header {
+  background-color: #1782B8;
+  color: white; }
+
+#loginModal .modal-header {
+  background-color: #901CAD;
+  color: white; }
