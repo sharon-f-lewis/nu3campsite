@@ -46,3 +46,16 @@ header h2 {
 #loginModal .modal-header {
   background-color: #901CAD;
   color: white; }
+
+.review-section {
+  background: beige;
+  padding: 20px; }
+
+.campsite-btn {
+  background: #0dcaf0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  width: 60%; }
