@@ -6,14 +6,17 @@
   <meta charset='utf-8' />
   <meta name='viewport' content='width=device-width, initial-scale=1' />
 
+  <!-- build:css css/main.css -->
   <!-- Bootstrap CSS -->
   <link rel='stylesheet' href='node_modules/bootstrap/dist/css/bootstrap.min.css' />
 
   <!-- Additional CSS must be placed after Bootstrap CSS -->
-  <link rel='stylesheet' href='node_modules/font-awesome/css/font-awesome.min.css'>
-  <link rel='stylesheet' href='node_modules/bootstrap-social/bootstrap-social.css'>
-  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lobster|Open+Sans' />
+  <link rel='stylesheet' href='node_modules/font-awesome/css/font-awesome.min.css' />
+  <link rel='stylesheet' href='node_modules/bootstrap-social/bootstrap-social.css' />
   <link rel='stylesheet' href='css/styles.css' />
+  <!-- endbuild -->
+
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lobster|Open+Sans' />
 
   <title>Nucamp: A Better Way To Camp</title>
 </head>
@@ -227,11 +230,11 @@
           <h5>Links</h5>
           <ul class='list-unstyled'>
             <li><a href='index.html'>Home</a></li>
-            <li><a href='#'>About</a></li>
+            <li><a href='aboutus.html'>About</a></li>
             <li><a href='#'>Sites</a></li>
-            <li><a href='contactus.html'>Contact</a></li>
+            <li><a href='#'>Contact</a></li>
           </ul>
-        </div>
+        </div> <!-- end col -->
         <!-- Column 2 - Social Links -->
         <div class='col-6 col-sm-5 text-center'>
           <h5>Social</h5>
@@ -239,17 +242,26 @@
           <a class='btn btn-social-icon btn-facebook' href='http://facebook.com/'><i class='fa fa-facebook'></i></a>
           <a class='btn btn-social-icon btn-twitter' href='http://twitter.com/'><i class='fa fa-twitter'></i></a>
           <a class='btn btn-social-icon btn-youtube' href='http://youtube.com/'><i class='fa fa-youtube'></i></a>
-        </div>
+        </div> <!-- end col -->
         <!-- Column 3 - Contact links -->
         <div class='col-sm-4 text-center'>
-          <a role='button' class='btn btn-link' href-'tel:+12065551234'><i class='fa fa-phone'></i> 1-206-555-1234<br></a>
-          <a role='button' class='btn btn-link' href='mailto:campsites@nucamp.co'><i class='fa fa-envelope-o'></i> campsites@nucamp.co</a>
-        </div>
-      </div>
-    </div>
+          <a role='button' class='btn btn-link' href='tel:+12065551234'>
+            <!-- <i class='fa fa-phone' />  -->
+            1-206-555-1234
+          </a>
+          <a role='button' class='btn btn-link' href='mailto:campsites@nucamp.co'>
+            <!-- <i class='fa fa-envelope-o' />  -->
+            campsites@nucamp.co
+          </a>
+        </div> <!-- end col -->
+      </div> <!-- end row -->
+    </div> <!-- end container -->
   </footer>
 
   <!-- Bootstrap JavaScript plugins.-->
-  <script src='node_modules/bootstrap/dist/js/bootstrap.bundle.js'></script>
+  <!-- build:js js/main.js -->
+  <script src='js/bootstrap.bundle.js'>
+  </script>
+  <!-- endbuild -->
 </body>
 </html>
