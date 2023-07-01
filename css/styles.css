@@ -1,52 +1,40 @@
 body {
-  font-family: 'Open Sans', sans-serif;
-}
+  font-family: "Open Sans", sans-serif; }
+
+footer {
+  background-image: linear-gradient(#CEC8FF, white);
+  padding: 20px 0; }
 
 h1, h2, h3 {
-  font-family: 'Lobster', cursive;
-}
+  font-family: "Lobster", cursive; }
 
 h2 {
-  color: #3046C5;
-}
+  color: #3046C5; }
+
+header {
+  padding: 30px;
+  background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
+  color: white; }
 
 header h2 {
-  color: #CEC8FF;
-}
+  color: #CEC8FF; }
 
 .accordion-button {
-  background-color: #d3d3d3;
-}
+  background-color: #d3d3d3; }
 
 .carousel {
-  border: solid #5637DD;
-}
+  border: solid #5637DD; }
 
 .carousel-caption {
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-.jumbotron {
-  padding: 48px;
-  background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
-  color: white;
-}
+  background-color: rgba(0, 0, 0, 0.5); }
 
 .navbar {
-  background-color: #901cad;
-}
+  background-color: #901CAD; }
 
 .navbar-toggler {
-  margin-left: auto;
-}
+  margin-left: auto; }
 
 .row-content {
   padding: 50px 9;
   border-bottom: 1px ridge;
-  min-height: 200px;
-}
-
-.site-footer {
-  background-image: linear-gradient(#CEC8FF, white);
-  padding: 20px 0;
-}
+  min-height: 200px; }
